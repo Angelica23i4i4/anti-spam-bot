@@ -58,7 +58,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
 
 def main() -> None:
-    TOKEN = '7574199840:AAHfN22rCQ_jOfYq2t9hSJPyvyNrK6vVOaA'  # Замените на токен вашего бота
+    TOKEN = 'Token'  # Замените на токен вашего бота
 
     # Создаем приложение
     application = ApplicationBuilder().token(TOKEN).build()
